@@ -12,6 +12,8 @@
 		F2498F3A2981E4D500C199F8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F2498F392981E4D500C199F8 /* Assets.xcassets */; };
 		F2498F3D2981E4D500C199F8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F2498F3C2981E4D500C199F8 /* Preview Assets.xcassets */; };
 		F2498F442981EFEF00C199F8 /* Styles.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2498F432981EFEF00C199F8 /* Styles.swift */; };
+		F2970F1229849DAA00982F1F /* TabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2970F1129849DAA00982F1F /* TabBar.swift */; };
+		F2970F142984A0F000982F1F /* Tab.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2970F132984A0F000982F1F /* Tab.swift */; };
 		F2CCFBF72983307500B6E3AE /* AccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2CCFBF62983307500B6E3AE /* AccountView.swift */; };
 		F2CCFBF929833F3300B6E3AE /* HexagonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2CCFBF829833F3300B6E3AE /* HexagonView.swift */; };
 		F2CCFBFB2983437200B6E3AE /* BlobView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2CCFBFA2983437200B6E3AE /* BlobView.swift */; };
@@ -24,6 +26,8 @@
 		F2498F392981E4D500C199F8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F2498F3C2981E4D500C199F8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		F2498F432981EFEF00C199F8 /* Styles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Styles.swift; sourceTree = "<group>"; };
+		F2970F1129849DAA00982F1F /* TabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBar.swift; sourceTree = "<group>"; };
+		F2970F132984A0F000982F1F /* Tab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tab.swift; sourceTree = "<group>"; };
 		F2CCFBF62983307500B6E3AE /* AccountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountView.swift; sourceTree = "<group>"; };
 		F2CCFBF829833F3300B6E3AE /* HexagonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HexagonView.swift; sourceTree = "<group>"; };
 		F2CCFBFA2983437200B6E3AE /* BlobView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlobView.swift; sourceTree = "<group>"; };
@@ -62,6 +66,8 @@
 				F2498F352981E4D200C199F8 /* CryptoApp.swift */,
 				F2498F372981E4D200C199F8 /* ContentView.swift */,
 				F2CCFBF62983307500B6E3AE /* AccountView.swift */,
+				F2970F1129849DAA00982F1F /* TabBar.swift */,
+				F2970F132984A0F000982F1F /* Tab.swift */,
 				F2CCFBFA2983437200B6E3AE /* BlobView.swift */,
 				F2CCFBF829833F3300B6E3AE /* HexagonView.swift */,
 				F2498F432981EFEF00C199F8 /* Styles.swift */,
@@ -152,9 +158,11 @@
 				F2CCFBF72983307500B6E3AE /* AccountView.swift in Sources */,
 				F2CCFBF929833F3300B6E3AE /* HexagonView.swift in Sources */,
 				F2498F442981EFEF00C199F8 /* Styles.swift in Sources */,
+				F2970F142984A0F000982F1F /* Tab.swift in Sources */,
 				F2CCFBFB2983437200B6E3AE /* BlobView.swift in Sources */,
 				F2498F382981E4D200C199F8 /* ContentView.swift in Sources */,
 				F2498F362981E4D200C199F8 /* CryptoApp.swift in Sources */,
+				F2970F1229849DAA00982F1F /* TabBar.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
