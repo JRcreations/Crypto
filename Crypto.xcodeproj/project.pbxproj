@@ -21,6 +21,9 @@
 		F292B23B2989E5A800CA809C /* MatchedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F292B23A2989E5A700CA809C /* MatchedView.swift */; };
 		F2970F1229849DAA00982F1F /* TabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2970F1129849DAA00982F1F /* TabBar.swift */; };
 		F2970F142984A0F000982F1F /* Tab.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2970F132984A0F000982F1F /* Tab.swift */; };
+		F2AD2719298B18700092C7CB /* CourseItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2AD2718298B18700092C7CB /* CourseItem.swift */; };
+		F2AD271B298B18F80092C7CB /* CourseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2AD271A298B18F80092C7CB /* CourseView.swift */; };
+		F2AD271D298B1DB80092C7CB /* Animations.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2AD271C298B1DB80092C7CB /* Animations.swift */; };
 		F2CCFBF72983307500B6E3AE /* AccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2CCFBF62983307500B6E3AE /* AccountView.swift */; };
 		F2CCFBF929833F3300B6E3AE /* HexagonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2CCFBF829833F3300B6E3AE /* HexagonView.swift */; };
 		F2CCFBFB2983437200B6E3AE /* BlobView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2CCFBFA2983437200B6E3AE /* BlobView.swift */; };
@@ -42,6 +45,9 @@
 		F292B23A2989E5A700CA809C /* MatchedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchedView.swift; sourceTree = "<group>"; };
 		F2970F1129849DAA00982F1F /* TabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBar.swift; sourceTree = "<group>"; };
 		F2970F132984A0F000982F1F /* Tab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tab.swift; sourceTree = "<group>"; };
+		F2AD2718298B18700092C7CB /* CourseItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseItem.swift; sourceTree = "<group>"; };
+		F2AD271A298B18F80092C7CB /* CourseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseView.swift; sourceTree = "<group>"; };
+		F2AD271C298B1DB80092C7CB /* Animations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Animations.swift; sourceTree = "<group>"; };
 		F2CCFBF62983307500B6E3AE /* AccountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountView.swift; sourceTree = "<group>"; };
 		F2CCFBF829833F3300B6E3AE /* HexagonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HexagonView.swift; sourceTree = "<group>"; };
 		F2CCFBFA2983437200B6E3AE /* BlobView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlobView.swift; sourceTree = "<group>"; };
@@ -74,6 +80,7 @@
 				F20E44A32988832D0006CB50 /* HomeView.swift */,
 				F2CCFBF62983307500B6E3AE /* AccountView.swift */,
 				F292B23A2989E5A700CA809C /* MatchedView.swift */,
+				F2AD271A298B18F80092C7CB /* CourseView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -84,6 +91,7 @@
 				F2CCFBF829833F3300B6E3AE /* HexagonView.swift */,
 				F2CCFBFA2983437200B6E3AE /* BlobView.swift */,
 				F26FAAA1298968B00061CDB1 /* FeaturedItem.swift */,
+				F2AD2718298B18700092C7CB /* CourseItem.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -103,6 +111,7 @@
 			children = (
 				F2498F432981EFEF00C199F8 /* Styles.swift */,
 				F26FAAA7298970AD0061CDB1 /* AnimatableFontModifier.swift */,
+				F2AD271C298B1DB80092C7CB /* Animations.swift */,
 			);
 			path = Styles;
 			sourceTree = "<group>";
@@ -218,6 +227,7 @@
 			files = (
 				F20E44A42988832D0006CB50 /* HomeView.swift in Sources */,
 				F2CCFBF72983307500B6E3AE /* AccountView.swift in Sources */,
+				F2AD271B298B18F80092C7CB /* CourseView.swift in Sources */,
 				F2CCFBF929833F3300B6E3AE /* HexagonView.swift in Sources */,
 				F2498F442981EFEF00C199F8 /* Styles.swift in Sources */,
 				F292B23B2989E5A800CA809C /* MatchedView.swift in Sources */,
@@ -227,7 +237,9 @@
 				F2498F382981E4D200C199F8 /* ContentView.swift in Sources */,
 				F292B2392989DF6500CA809C /* Course.swift in Sources */,
 				F2498F362981E4D200C199F8 /* CryptoApp.swift in Sources */,
+				F2AD2719298B18700092C7CB /* CourseItem.swift in Sources */,
 				F26FAAA2298968B00061CDB1 /* FeaturedItem.swift in Sources */,
+				F2AD271D298B1DB80092C7CB /* Animations.swift in Sources */,
 				F26FAAA629896D410061CDB1 /* PreferenceKeys.swift in Sources */,
 				F2970F1229849DAA00982F1F /* TabBar.swift in Sources */,
 				F26FAAA8298970AD0061CDB1 /* AnimatableFontModifier.swift in Sources */,
